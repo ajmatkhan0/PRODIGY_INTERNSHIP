@@ -1,0 +1,40 @@
+#navbar {
+  background-color: #333;
+}
+
+#navbar ul {
+float: right;
+    margin-right: 20px;
+
+}
+
+#navbar ul li {
+      display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+#navbar ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+label.logo{
+ color: white;
+ font-size: 35px;
+ line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
